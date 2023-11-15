@@ -1,18 +1,16 @@
 import * as React from 'react';
 
-import { StyleSheet, View, Text } from 'react-native';
-import { multiply } from 'framework_test_library_sixdee';
+import { StyleSheet, View, Text, TouchableOpacity } from 'react-native';
+import { loadGame } from 'framework_test_library_sixdee';
 
 export default function App() {
-  const [result, setResult] = React.useState<number | undefined>();
-
-  React.useEffect(() => {
-    multiply(3, 7).then(setResult);
-  }, []);
-
   return (
     <View style={styles.container}>
-      <Text>Result: {result}</Text>
+      <TouchableOpacity onPress={() => { loadGame() }}>
+        <Text>
+          Click here
+        </Text>
+      </TouchableOpacity>
     </View>
   );
 }

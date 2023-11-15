@@ -16,7 +16,7 @@ const FrameworkTestLibrarySixdee = NativeModules.FrameworkTestLibrarySixdee
         },
       }
     );
-
-export function multiply(a: number, b: number): Promise<number> {
-  return FrameworkTestLibrarySixdee.multiply(a, b);
+    
+export function loadGame(): Promise<string> {
+  return FrameworkTestLibrarySixdee.loadGame();
 }

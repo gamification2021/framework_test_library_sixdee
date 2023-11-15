@@ -14,6 +14,7 @@ Pod::Spec.new do |s|
   s.platforms    = { :ios => "11.0" }
   s.source       = { :git => "https://github.com/gamification2021/framework_test_library_sixdee.git", :tag => "#{s.version}" }
 
+  s.ios.vendored_frameworks = "ios/GamificationFramework.xcframework"
   s.source_files = "ios/**/*.{h,m,mm,swift}"
 
   # Use install_modules_dependencies helper to install the dependencies if React Native version >=0.71.0.
