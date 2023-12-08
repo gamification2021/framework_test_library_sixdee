@@ -7171,7 +7171,6 @@ __metadata:
     tslib: ^2.6.2
     tsutils: ^3.21.0
     turbo: ^1.10.7
-    turbo-windows-64: ^1.10.16
     type-check: ^0.4.0
     type-detect: ^4.0.8
     type-fest: ^1.4.0
@@ -13416,10 +13415,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"turbo-windows-64@npm:1.10.16, turbo-windows-64@npm:^1.10.16":
+"turbo-windows-64@npm:1.10.16":
   version: 1.10.16
   resolution: "turbo-windows-64@npm:1.10.16"
-  checksum: 9944e0510fcae3bf05b3f9d342fb2e2a4474ccb860066a010b09f1f14cc30dd00c97eb39ca401469a6fb43f300930bd6dbf6a7d042936d967c10b232ff6b9a02
   conditions: os=win32 & cpu=x64
   languageName: node
   linkType: hard
