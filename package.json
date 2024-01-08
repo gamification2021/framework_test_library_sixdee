@@ -1,6 +1,6 @@
 {
-  "name": "jawwy_gamification",
-  "version": "0.1.8",
+  "name": "jawwy_gamification_release",
+  "version": "0.1.12",
   "description": "Gamification library",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",

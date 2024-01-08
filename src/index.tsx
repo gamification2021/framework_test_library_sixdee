@@ -17,6 +17,8 @@ const FrameworkTestLibrarySixdee = NativeModules.FrameworkTestLibrarySixdee
       }
     );
     
-export function loadGame(): Promise<string> {
-  return FrameworkTestLibrarySixdee.loadGame();
-}
+    function loadGame(msisdn: String, baseUrl: String, subscriptionId: String, language: String, token: String): Promise<string> {
+      return FrameworkTestLibrarySixdee.loadGame(msisdn, baseUrl, subscriptionId, language, token);
+    }
+    
+    export { loadGame };
