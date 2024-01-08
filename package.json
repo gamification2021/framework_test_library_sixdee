@@ -1,7 +1,7 @@
 {
-  "name": "framework_test_library_sixdee",
-  "version": "0.1.2",
-  "description": "test library",
+  "name": "jawwy_gamification",
+  "version": "0.1.8",
+  "description": "Gamification library",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
   "types": "lib/typescript/src/index.d.ts",
